@@ -1,70 +1,74 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  Shopaholic
 
-## Available Scripts
 
-In the project directory, you can run:
+           a responsive web application developed by using React.js, Context api, html, css, bootstrap and javascript.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   it's a clone web app of e-commerce websites like amazon, flipkart, it has almost all features that any normal e-commerce website would provide.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+  
+![Logo](https://cdn-icons-png.flaticon.com/128/825/825561.png)  SHOPAHOLIC
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🛠 Skills
+React.js, html,  css, bootstrap,    javascript
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * react routing to navigate between pages
+   * login/logout functionality using Auth0
+   * responsive app
+   * bootstrap components 
+   * fetching of data from context api
+   * sorting of fetched data according to name and highest,lowest price
+   * filtering products according to companies, categories, colours and price range
+   * display of products according to inputs given by user in search bar
+   * add to cart, remove cart items, clear cart, change cart amount, calculation of price of all cart items while checking out
+   * formik to handle contact form data and yup to validate contact form
+   * use of react function components and hooks like useState, useEffect, useContext, useParams and useReducer
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Color Reference
 
-## Learn More
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#000000](https://via.placeholder.com/10/000000?text=+) Black |
+| Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) White|
+| Example Color | ![#FFA500](https://via.placeholder.com/10/FFA500?text=+) Orange|
+| Example Color | ![#87CEEB](https://via.placeholder.com/10/87CEEB?text=+) Skyblue|
+| Example Color | ![#0000FF](https://via.placeholder.com/10/0000FF?text=+) Blue|
+| Example Color | ![#FFFF00](https://via.placeholder.com/10/FFFF00?text=+) Yellow|
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## API Reference
 
-### Analyzing the Bundle Size
+#### Get all items
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```http
+  https://api.pujakaitem.com/api/products
+```
 
-### Making a Progressive Web App
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | Api key is not Required |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Get item
 
-### Advanced Configuration
+```http
+  https://api.pujakaitem.com/api/products/${id}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
