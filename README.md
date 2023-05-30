@@ -13,7 +13,7 @@
 
 
 ## 🛠 Skills
-React.js, html,  css, bootstrap,    javascript
+React.js, html, css, bootstrap, javascript
 
 
 ## Features
