@@ -1,5 +1,7 @@
 
-  Shopaholic
+ 
+  Shopaholic- 
+  see videos of working of this web app inside project videos folder of this repository.
 
 
            a responsive web application developed by using React.js, Context api, html, css, bootstrap and javascript.
