@@ -1,7 +1,7 @@
 
  
-  Shopaholic- 
-  see videos of working of this web app inside project videos folder of this repository.
+  Shopaholic
+  
 
 
            a responsive web application developed by using React.js, Context api, html, css, bootstrap and javascript.
@@ -31,6 +31,32 @@ React.js, html, css, bootstrap, javascript
    * add to cart, remove cart items, clear cart, change cart amount, calculation of price of all cart items while checking out
    * formik to handle contact form data and yup to validate contact form
    * use of react function components and hooks like useState, useEffect, useContext, useParams and useReducer
+
+
+## Videos
+* landing Page
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/34ab73e2-209d-4e20-94c0-e51ef0e462c7
+
+
+* sort, filters, search products functionality
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/00e1de97-ae6f-4c9f-ac49-59cfad4e6a01
+
+* single product page
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/2b527a1c-8e73-4411-80e8-fa358ce405f2
+
+* contact form validation
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/c6d970ee-a7c9-4c4b-9bc8-ad618f12d72d
+
+* cart page
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/1f3fa656-3a4d-4b16-86e6-6d8119b5e9dc
+
+
+* log in / log out functionality
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/78ef7fa7-6e90-44e9-8df1-c1d748dbc8d5
+
+* responsive app
+https://github.com/SOURABHDESAI98/Shopaholic-E-commerce-Website/assets/134591383/4c795153-3b3f-4364-a2fc-103a748eecf1
+
 
 
 ## Screenshots
