@@ -7,7 +7,7 @@ const CartContext = createContext();
 
 
 
-const getLocalCartData = () => {
+const getLocalCartData = () => {    // modifications are done here
     let localCartData = localStorage.getItem('thapaCart');
     const parsedData = JSON.parse(localCartData);
 
